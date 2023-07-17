@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/template"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": { 
+          "timestamp_At_port" : "{{request.port}} {{now offset='1 days'}}" 
+        }
+    }
+}
