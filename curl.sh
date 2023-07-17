@@ -1,0 +1,1 @@
+curl http://localhost:8084/api/mytest | xargs 
