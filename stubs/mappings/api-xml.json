@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/template/xmls"
+        
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+           "Content-Type": "application/xml"
+        },
+        "bodyFileName": "manualBet.xml"
+     
+    }
+}
